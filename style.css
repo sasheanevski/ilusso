@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    width: 170px;
+    height: 80px;
+    cursor: pointer;
+}
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+header {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+span {
+    background-color: #000;
+    color: #fff;
+    transition: 0.8s all;
+    padding: 20px;
+    border-radius: 25px;
+}
+span:hover {
+    background-color: orangered;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 53% 35%;
+}
+.child {
+    text-align: left;
+    padding: 15% 28%;
+}
+.child h1 {
+    font-family: "Montserrat" sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    padding-bottom: 20px;
+}
+.child p {
+    color: gray;
+    font-size: 20px; 
+}
+.child h4 {
+    font-family: "Montserrat" sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+/* Section three */
+
+.child1 img {
+    width: 700px;
+    height: 850px;
+    position: relative;
+    right: 6%;
+ }
+ .left-pic img {
+     width: 745px;
+     height: 850px;
+ }
+ .parent1 {
+     display: grid;
+     grid-template-columns: 53% 20% 20%;
+     grid-gap: 2px;
+     grid-template-areas: "card logo picture "
+                          "card logo picture"
+                          "card text text"
+                          "card text text";
+ }
+ .left-pic {
+     grid-area: card;
+     padding-left: 30px;
+     margin-top: -3px;
+     width: 150px;
+ }
+ .card-pic {
+    grid-area: picture;
+    margin-top: -3px;
+
+ }
+ .text h1 {
+     font-size: 3rem;
+     font-family: "Montserrat" sans-serif;
+     font-weight: 900;
+     line-height: 1;
+     padding-bottom: 1rem;
+ }
+ .text p {
+     line-height: 1;
+     font-size: 20px;
+     color: gray;
+ }
+ .text {
+     grid-area: text;
+     padding: 5%;
+ }
+ .card-logo {
+     grid-area: logo;
+     background-color: black;
+     color: white;
+     height: 453px;
+     text-align: left;
+     justify-content: left;
+     align-items: left;
+     padding: 25% 10%;
+     position: relative;
+     right: 4%;
+     margin-left: -21px;
+     margin-top: -3px;
+     padding-right: 50px;
+     width: 120%;
+ }
+ button {
+     margin-top: 60px;
+     padding: 15px;
+     border-radius: 25px;
+     font-size: 15px;
+     font-family: "Montserrat" sans-serif;
+     font-weight: 900;
+     cursor: pointer;
+ }
+ button:hover {
+     background-color: orangered;
+     transition: 0.8s all;
+ }
+ .card-logo p {
+     margin-top: 20px
+ }
+
+ /*Footer*/
+.container {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: -3px;
+    padding-top: 20px;
+    height: 15rem;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat" sans-serif;
+}
+.social a {
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+}
+.footer-navbar a {
+    color: white;
+    margin: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer-location {
+    margin: 50px;
+}
+.footer-location>:first-child {
+    padding-bottom: 50px;
+}
+.social a i {
+    padding-top: 30px;
+}
+.social>:first-child {
+    padding-bottom: 30px;
+}
